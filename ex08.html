@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        display: flex;
+    }
+    .hover{
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        text-align: center;
+    }
+    .popup{
+        color: aliceblue;
+        text-align: center;
+        padding-left: 150px;
+    }
+    .hover:hover .popup{
+        color: black;
+        transition: 0.75s;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="hover">
+            <div class="popup">
+                Popup Jaaaaaa
+            </div>
+        </div>
+    </div>
+</body>
+</html>
